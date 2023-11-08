@@ -1,0 +1,10 @@
+{
+    "VersionCode": 20231107,
+    "VersionName": 0.2,
+    "CHN":{
+        "UpdateStory": "0.2\n修复 只能播放一段时间的问题\n修复 部分电台频道错位及最后一个电台频道播放报错的问题\n新增 “设置”页面\n新增 双语支持（英文与中文）\n更改 原“关于”对话框迁移至“设置”页面的“关于”选项"
+    },
+    "ENG": {
+        "UpdateStory": "0.2\nFIX Problem with only being able to play for period of time.\nFIX Audio misalignment of some radio channel and error of the last radio channel.\nNEW Settings page.\nNEW Bilingual support (English and Chinese).\nCHANGE The original About dialog was migrated to the About option on the Settings page."
+    }
+}
