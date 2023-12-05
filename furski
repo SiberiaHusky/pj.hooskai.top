@@ -1,0 +1,13 @@
+{
+    "VersionCode": 20231204,
+    "VersionName": 0.2.2,
+    "UpdateUrl": "https://neczix.lanzoul.com/iq0l51grp4xc",
+    "CHN":{
+        "UpdateStory": "0.2.2\n新增 “自定义链接”功能\n新增 “账户”页面及侧滑栏相关选项\n新增 “投票”功能\n修改 “查看”页面第一页布局样式\n修改 “收藏”功能",
+        "Unfinish": "问题 多语言支持不完善"
+    },
+    "ENG": {
+        "UpdateStory": "0.2.2\nNEW 'Customize link' feature\nNEW 'Account' page and related options in the drawer\nNEW 'Vote' function\nCHANGE The layout of the first page of 'Viewer' page\nCHANGE 'Favorites' function",
+        "Unfinish": "PROBLEM Multi-language support is not perfect"
+    }
+}
