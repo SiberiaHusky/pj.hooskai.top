@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1">
+        <title>Furski | Husky's Projects
+        </title>
+        <!-- Description -->
+        <meta name="description" content="an e926 & e621 unofficial app.">
+        <!-- Keywords -->
+        <meta name="keywords" content="胡斯凯,胡斯凱,hooskai,siberia husky,SiberiaHusky,furski,e926,e621,e6ai">
+        <!-- Fontawesome -->
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <!-- Style -->
+        <link href="./assets/style.css" rel="stylesheet">
+        <!-- Customize style -->
+        <style>
+            :root {
+                --background-color: #f5f5f5;
+                --background-color-rgb: 245, 245, 245;
+
+                --text-color-primary: black;
+                --text-color-primary-rgb: 0, 0, 0;
+
+                --text-color-secondary: #1e86dd;
+                --text-color-secondary-rgb: 30, 134, 221;
+
+                --color-primary: #1e86dd;
+                --color-primary-rgb: 30, 134, 221;
+
+                --color-secondary: black;
+                --color-secondary-rgb: 0, 0, 0;
+            }
+        </style>
+    </head>
+
+    <body class="us-n">
+        <!-- nav bar -->
+        <nav>
+            <div class="navbar" style="vertical-align: text-bottom;">
+                <p>Furski</p>
+            </div>
+        </nav>
+
+            <!-- cover & slogan -->
+        <div class="banner">
+            <div class="image-container">
+                <img src="https://api.dujin.org/bing/1920.php" style="width: 100%;">
+                <div class="gradient-overlay"></div>
+            </div>
+            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; z-index: 2;">
+                <h1 style="font-size: x-large; color: var(--color-primary);">an e926 & e621 unofficial app</h1>
+            </div>
+        </div>
+
+        <!-- contents -->
+        <div class="container">
+
+            <!-- button -->
+            <div class="flex">
+                <a href="./release.apk"><button><h1>Download</h1></button></a>
+            </div>
+
+            <hr>
+
+            <!-- features -->
+            <h1>Features</h1>
+            <div class="card" style="display: grid;">
+                <!-- URL changeable -->
+                <div>
+                    <h1>URL changeable</h1>
+                    <p>Change the URL to yours</p>
+                </div>
+
+                <hr>
+                <!-- browse -->
+                <div>
+                    <h1>Browse</h1>
+                    <p>Browse the latest, your favorites & popular posts</p>
+                </div>
+
+                <hr>
+                <!-- vote -->
+                <div>
+                    <h1>Vote</h1>
+                    <p>You can vote for any post</p>
+                </div>
+
+                <hr>
+                <!-- download -->
+                <div>
+                    <h1>Download</h1>
+                    <p>Download any posts you want</p>
+                </div>
+
+                <hr>
+                <!-- privacy -->
+                <div>
+                    <h1>Privacy</h1>
+                    <p>Callable system biometrics or passwords</p>
+                </div>
+            </div>
+
+            <!-- support -->
+            <h1>Support</h1>
+            <div class="card" style="display: grid;">
+                <!-- translate -->
+                <a>
+                    <div>
+                        <h1>Translate</h1>
+                        <p>Helping developers translate</p>
+                    </div>
+                </a>
+
+                <hr>
+                <!-- donate -->
+                <a>
+                    <div>
+                        <h1>Donate</h1>
+                        <p>Support for developers to continue development of Furski</p>
+                    </div>
+                </a>
+
+                <hr>
+                <!-- feedback -->
+                <a href="https://github.com/SiberiaHusky/Furski/issues">
+                    <div>
+                        <h1>Feedback</h1>
+                        <p>Feedback on bugs you encountered</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="card">
+                <div>
+                    <p>Copyrights &copy; 2019-<span id="this_year"></span> <a href="/">SiberiaHusky</a>. All rights reserved.</p>
+                </div>
+                <ul style="display: flex;">
+                </ul>
+            </div>
+        </footer>
+    </body>
+
+    <!-- date javasript -->
+    <script type="text/javascript">
+        var date = new Date();
+      
+        document.querySelector('#this_year').innerText = date.getFullYear();
+    </script>
+</html>
