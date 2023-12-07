@@ -1,13 +1,13 @@
 {
-    "VersionCode": 20231205,
-    "VersionName": 0.3,
-    "UpdateUrl": "https://neczix.lanzoul.com/iq0l51grp4xc",
+    "VersionCode": 20231207,
+    "VersionName": "0.3.1",
+    "UpdateUrl": "https://pj.hooskai.top/furski/release.apk",
     "CHN":{
-        "UpdateStory": "0.2.2\n新增 “自定义链接”功能\n新增 “账户”页面及侧滑栏相关选项\n新增 “投票”功能\n修改 “查看”页面第一页布局样式\n修改 “收藏”功能",
+        "UpdateStory": "（使用此 API 的应用已过时，请尽快升级）\n\n0.3.1\n新增 “搜索”功能\n更改 “设置”页面排列及内容\n更改 更新 API URL 更改\n\n0.2.2\n新增 “自定义链接”功能\n新增 “账户”页面及侧滑栏相关选项\n新增 “投票”功能\n修改 “查看”页面第一页布局样式\n修改 “收藏”功能",
         "Unfinish": "问题 多语言支持不完善"
     },
     "ENG": {
-        "UpdateStory": "0.2.2\nNEW 'Customize link' feature\nNEW 'Account' page and related options in the drawer\nNEW 'Vote' function\nCHANGE The layout of the first page of 'Viewer' page\nCHANGE 'Favorites' function",
+        "UpdateStory": "(Apps using this API are obsolete, please upgrade ASAP)\n\n0.3.1\nNEW 'Search' function\nCHANGE 'Settings' page arrangement and layout\nCHANGE Updated API URL changes\n\n0.2.2\nNEW 'Customize link' feature\nNEW 'Account' page and related options in the drawer\nNEW 'Vote' function\nCHANGE The layout of the first page of 'Viewer' page\nCHANGE 'Favorites' function",
         "Unfinish": "PROBLEM Multi-language support is not perfect"
     }
 }
