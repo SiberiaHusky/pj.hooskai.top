@@ -1,13 +1,13 @@
 {
-    "VersionCode": 20231207,
-    "VersionName": "0.3.1",
+    "VersionCode": 20231211,
+    "VersionName": "0.4.1",
     "UpdateUrl": "https://pj.hooskai.top/furski/release.apk",
     "CHN":{
-        "UpdateStory": "0.3.1\n新增 “搜索”功能\n更改 “设置”页面排列及内容\n更改 更新 API URL 更改\n\n0.2.2\n新增 “自定义链接”功能\n新增 “账户”页面及侧滑栏相关选项\n新增 “投票”功能\n修改 “查看”页面第一页布局样式\n修改 “收藏”功能",
+        "UpdateStory": "0.4.1\n新增 “生物识别”功能\n新增 “隐藏进程”功能\n修改 “设置”页面排列及内容\n\n0.3.1\n新增 “搜索”功能\n修改 “设置”页面排列及内容\n修改 更新 API URL 修改\n\n0.2.2\n新增 “自定义链接”功能\n新增 “账户”页面及侧滑栏相关选项\n新增 “投票”功能\n修改 “查看”页面第一页布局样式\n修改 “收藏”功能",
         "Unfinish": "问题 多语言支持不完善"
     },
     "ENG": {
-        "UpdateStory": "0.3.1\nNEW 'Search' function\nCHANGE 'Settings' page arrangement and layout\nCHANGE Updated API URL changes\n\n0.2.2\nNEW 'Customize link' feature\nNEW 'Account' page and related options in the drawer\nNEW 'Vote' function\nCHANGE The layout of the first page of 'Viewer' page\nCHANGE 'Favorites' function",
-        "Unfinish": "PROBLEM Multi-language support is not perfect"
+        "UpdateStory": "0.4.1\nADD 'Biometrics' function\nADD 'Hidden Process' function\nMOD 'Settings' page arrangement and content\n\n0.3.1\nADD 'Search' function\nMOD 'Settings' page arrangement and layout\nMOD Updated API URL changes\n\n0.2.2\nADD 'Customize link' feature\nADD 'Account' page and related options in the drawer\nADD 'Vote' function\nMOD The layout of the first page of 'Viewer' page\nMOD 'Favorites' function",
+        "Unfinish": "PRB Multi-language support is not perfect"
     }
 }
