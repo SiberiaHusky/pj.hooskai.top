@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1">
+    <title>Mr. Picto | Husky's Projects
+    </title>
+    <!-- Icon -->
+    <link rel="icon" href="./assets/favicon.webp">
+    <!-- Description -->
+    <meta name="description" content="A low poly indie game">
+    <!-- Keywords -->
+    <meta name="keywords" content="胡斯凯,胡斯凱,hooskai,siberia husky,SiberiaHusky,mrpicto,picto,mr.picto,皮特托,ピクト,pikuto">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- Style -->
+    <link href="https://ui.hooskai.top/assets/style.css" rel="stylesheet">
+    <!-- Customize style -->
+    <style>
+        :root {
+            --background-color: #f5f5f5;
+            --background-color-rgb: 245, 245, 245;
+
+            --text-color-primary: black;
+            --text-color-primary-rgb: 0, 0, 0;
+
+            --text-color-secondary: #1C8C42;
+            --text-color-secondary-rgb: 28, 140, 66;
+
+            --color-primary: #1C8C42;
+            --color-primary-rgb: 28, 140, 66;
+
+            --color-secondary: black;
+            --color-secondary-rgb: 0, 0, 0;
+        }
+    </style>
+</head>
+
+<body class="us-n">
+    <!-- contents -->
+    <div class="container">
+
+        <div style="text-align: center;">
+            <img src="./assets/logo.svg" height="100vh">
+
+            <div style="margin-top: 16px;">
+                <h1>A low poly indie game</h1>
+                <h2>Might it be Released?</h2>
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- support -->
+        <h1>Support</h1>
+        <div class="card" style="display: grid;">
+            <!-- translate -->
+            <a>
+                <div>
+                    <a href="https://buymeacoffee.com/hooskai" target="_blank">
+                        <h1>Buy Me a Coffee</h1>
+                        <p>https://buymeacoffee.com/hooskai<i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </a>
+                </div>
+            </a>
+
+            <hr>
+            <!-- donate -->
+            <a>
+                <div>
+                    <a href="https://afdian.net/a/hooskai" target="_blank">
+                        <h1>爱发电 Afdian</h1>
+                        <p>https://afdian.net/a/hooskai<i class="fa-solid fa-arrow-up-right-from-square"></i></p>
+                    </a>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="card">
+            <div>
+                <p>Copyrights &copy; 2019-<span id="this_year"></span> <a href="/">SiberiaHusky</a>. All rights
+                    reserved.</p>
+                <p></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!-- date javasript -->
+<script type="text/javascript">
+    var date = new Date();
+
+    document.querySelector('#this_year').innerText = date.getFullYear();
+</script>
+
+</html>
