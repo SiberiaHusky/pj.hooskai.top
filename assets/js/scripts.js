@@ -11,9 +11,15 @@
             return Math.floor(diffInYears)
         }
 
-        document.querySelector('#age').innerText = calcYearDiff()
+        var ageElement = document.querySelector('#age');
+        if (ageElement) {
+            ageElement.innerText = calcYearDiff();
+        }
 
-        document.querySelector('#this_year').innerText = date.getFullYear();
+        var yearElement = document.querySelector('#this_year');
+        if (yearElement) {
+            yearElement.innerText = date.getFullYear();
+        }
 
         // 5 秒后变换页面背景颜色
         setTimeout(function () {
