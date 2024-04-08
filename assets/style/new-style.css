@@ -93,8 +93,10 @@ nav {
     justify-content: flex-end;
 }
 
-#nav-div ul>*:not(:first-of-type) {
-    margin-left: 32px;
+#nav-div ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 nav li {
@@ -184,13 +186,18 @@ ul {
     padding: 32px;
 }
 
+.social-card-box {
+    flex-wrap: wrap;
+    margin-top: 16px;
+    gap: 32px;
+}
+
 .social-card {
     width: 10vh;
     height: 10vh;
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-    margin: 16px;
     border: var(--brand-color) 2px solid;
     border-radius: 16px;
 }
@@ -232,4 +239,21 @@ footer ul li:not(:last-of-type)::after {
     align-items: center;
     color: rgba(255, 255, 255, .5);
     margin: 0 8px;
+}
+
+@media screen and (max-width: 900px) {
+    #top_pic {
+        opacity: 0;
+    }
+
+    #nav-logo {
+        opacity: 0;
+        margin: inherit 0;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    #container {
+        display: flex;
+    }
 }
