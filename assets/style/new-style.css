@@ -231,12 +231,11 @@ ul {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    border: rgba(255, 255, 255, .5) 2px solid;
+    border: white 2px solid;
     border-radius: 16px;
 }
 
 .links-card:hover {
-    border: rgba(255, 255, 255, .5) 2px solid;
     box-shadow: 0 0 8px rgba(255, 255, 255, .5);
 }
 
